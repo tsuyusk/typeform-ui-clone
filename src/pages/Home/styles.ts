@@ -333,7 +333,20 @@ export const ColumnAdvantage = styled.div`
 
       > button {
         width: 30px;
-        width: 30px;
+        height: 30px;
+        background: #fff;
+        border: 0;
+        outline: 0;
+
+        > img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+
+        &:hover {
+          filter: brightness(95%);
+        }
       }
     }
 

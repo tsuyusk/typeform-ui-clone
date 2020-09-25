@@ -211,10 +211,30 @@ const Home: React.FC = () => {
             </div>
             <div>
               <div>
-                <button onClick={() => setSelectedImageIndex(0)}>1</button>
-                <button onClick={() => setSelectedImageIndex(1)}>2</button>
-                <button onClick={() => setSelectedImageIndex(2)}>3</button>
-                <button onClick={() => setSelectedImageIndex(3)}>4</button>
+                <button onClick={() => setSelectedImageIndex(0)}>
+                  <img
+                    src="https://www.typeform.com/static/home-page/hero/layouts-1.svg"
+                    alt="1"
+                  />
+                </button>
+                <button onClick={() => setSelectedImageIndex(1)}>
+                  <img
+                    src="https://www.typeform.com/static/home-page/hero/layouts-2.svg"
+                    alt="2"
+                  />
+                </button>
+                <button onClick={() => setSelectedImageIndex(2)}>
+                  <img
+                    src="https://www.typeform.com/static/home-page/hero/layouts-3.svg"
+                    alt="3"
+                  />
+                </button>
+                <button onClick={() => setSelectedImageIndex(3)}>
+                  <img
+                    src="https://www.typeform.com/static/home-page/hero/layouts-4.svg"
+                    alt="4"
+                  />
+                </button>
               </div>
               <img
                 src={imagesCarrousel[selectedImageIndex]}
